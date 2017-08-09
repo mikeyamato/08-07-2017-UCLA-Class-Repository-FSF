@@ -104,7 +104,7 @@ Live Office Hours: 45 minutes before class on M-Th and 30 minutes after class
 -----------------------------------------
 
 
-## Technical Curriculum By Week
+## Technical Curriculum By Week- see Bootcampspot-v2.com
 
 -----------------------------------------------------------
 
