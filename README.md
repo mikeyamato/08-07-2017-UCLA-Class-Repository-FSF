@@ -91,6 +91,8 @@ Please see bootcampspot-v2.com
 
 [Homework Checklist](https://docs.google.com/document/d/1eywyuewFYKGk7a-ndH0XgGHDmi3qdfuZkeuNxwcTzEM)
 
+[Link to Class Recordings](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=dd30f185-86a3-4312-bccc-f4834f454276)
+
 
 -----------------------------------------
 
