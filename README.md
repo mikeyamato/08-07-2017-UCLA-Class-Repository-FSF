@@ -38,23 +38,6 @@ You must give a full effort on every group and individual project.
 All videos can be found using this [insert link here]
 
 -----------------------------------------
-
-
-## Important Links And Notes
-
-
-[Slack Room insert link here]
-
------------------------------------------
-
-
-[Homework Submission](http://bootcampspot-v2.com)
-
-
-Live Office Hours: 45 minutes before class and 30 minutes after class
-
-
------------------------------------------
 ## Technical Curriculum By Week
 
 Please see bootcampspot-v2.com
@@ -93,7 +76,6 @@ Please see bootcampspot-v2.com
 
 [Link to Class Recordings](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=dd30f185-86a3-4312-bccc-f4834f454276)
 
-
 -----------------------------------------
 
 
@@ -110,5 +92,20 @@ Live Office Hours: 45 minutes before class on M-Th and 30 minutes after class
 
 -----------------------------------------------------------
 
+Class Exercise and Homework Solutions
+
+- - -
+
+### Unit 1 - HTML, CSS, and GIT
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClK-ZG5jYqbdgOD2DRHROkT)
+
+[Homework Solution Video](https://youtu.be/qMbCiVYQLCU)
+
+- - -
+
+### Unit 2 - Heroku and Bootstrap
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkLBEm5V0IzuhjdWBeKvrOC)
 
 ----------
