@@ -1,0 +1,188 @@
+# Concepts Check
+
+## HTML
+- 1.1
+	- To confirm that students have completed all required pre-work (software + tools installation)
+	- To introduce basic terminal/bash commands
+	- To create a basic HTML page
+- 1.2
+	-	To understand the value of Git version control
+	- To gain initial exposure to the concept of "adding, committing, and pushing" code to GitHub
+	- To gain initial exposure to HTML/CSS and how the two are linked using element selectors
+- 1.3
+	- Students should become fairly comfortable linking CSS files to HTML files using relative file paths in various directories.
+	- Students should have a working knowledge of the terms "float", "box model", and "CSS positioning."
+	- Students should gain initial exposure to working with CSS to build wireframe layouts.
+
+## CSS
+- 2.1
+	- Students should learn how to incorporate CSS resets
+	- Students should learn to deploy their websites using Github Pages
+	- Students should be exposed to the concept of pull requests in GitHub
+- 2.2
+	- Students should know how to use CSS properties for adjusting a website's typography
+	- Students should understand both the concept of an external pre-made CSS stylesheet and how to incorporate one
+	- Students should understand how to incorporate a custom Google Font.
+	- Students should be able to loosely explain why the Twitter Bootstrap Framework is useful and how to incorporate the Bootstrap CSS stylesheet
+- 2.3
+	- Students should:
+	- Gain a conceptual understanding of the role of grid-based web design in modern web development
+	- Utilize the Bootstrap grid system to create complete web layouts
+	- Understand the concept of mobile responsive web design and the use of media queries to achieve it
+
+## Bootstrap
+- 3.1
+	- Students should understand what each of the following terms means: `console.log`, `alert`, `prompt`, `confirm`, `variable`, `array`, and `if/else`. 
+	- Students should gain a preliminary grasp of JavaScript definitions and of basic syntax.
+	- Students utilize variables, logging, arrays, and if/else statements to create simple JavaScript applications.
+- 3.2
+	- Understand the use and syntax of JavaScript's for loops.
+	- Use for loops, arrays, and conditional logic to create a rock-paper-scissors game.
+- 3.3
+	- Gain an understanding of JavaScript Functions and Objects.
+	- Begin utilizing the basic JavaScript learned so far to build simple JavaScript games.
+
+## jQuery
+- 4.1
+	- Students should understand how to incorporate the jQuery library into their applications
+	- Students should complete the 6-SandwichClick activity.
+	- Students should complete the 7-TriggerRandom activity.
+	- Students should complete the 8-LotteryGenerator activity.
+	- To gain a cursory understanding of the jQuery library.
+	- To understand the steps needed to utilize the jQuery library to manipulate the DOM.
+- 4.2
+	- Students should understand how the 1-CaptainPlanetGame works and be able to add new on-click events to it.
+	- Students should complete the 2-FridgeGame Activity.
+	- Students should be given a cursory overview of the concept of lexical scope
+	- To use jQuery DOM manipulation to create simple games.
+- 4.3
+	- Students should be guided through the creation of the jQuery calculator (4-jQueryCalculator) OR be given time to work 1:1 with TAs.
+
+## Review Days and Timers
+- 5.1
+	- Students will ask conceptual questions regarding any of the subjects covered so far (HTML, CSS, Git, Github Pages, JavaScript, jQuery)
+	- Students will absorb a high-level recap of the most important subjects covered to date.
+	- Students will group code previous or new projects.
+- 5.2
+	- Students will understand JavaScript Timing Events including `setTimeout`, `clearTimeout`, & `setInterval`.
+	- Give students experience working on, and talking about code with other developers.
+	- Implement complex logical conditions to meet an objective.
+- 5.3
+	- Prepare students to answer conceptual problems with visualization.
+	- Reinforce visualization and pseudocoding as necessary tools for any web developer -- they’re essential for taking on any complex project as well as the tough questions they’ll attempt today (and during tech interviews).
+
+## Intro to APIs and AJAX
+- 6.1
+	- Students should be able to articulate a loose definition of API and JSON, along with a few examples of popular APIs
+	- Students should become more comfortable parsing JavaScript objects (both locally and as JSON)
+	- Students should complete the OMDb AJAX-to-HTML Activity
+	- Instructor should walk through the Giphy API example
+- 6.2
+	- Students should complete the Weather in Bujumbura Activity
+	- Students should complete the Working Movie App Activity
+	- CLass should solidify understanding of APIs, JSONs, and their roles in full-stack web development
+	- Class should increase comfort working with APIs and AJAX calls in data-rich applications
+- 6.3
+	- Students should complete each of the mini Ajax exercises in preparation for their homework assignment
+	- Students should be exposed to the idea of collaborative coding and the delegation of front-end/backend roles
+
+## Firebase and localStorage
+- 7.1
+	- Students should be able to articulate definitions of data persistence, client-side storage, and server-side storage.
+	- Students should have a conceptual understanding of the pros and cons of client-side vs. server-side storage.
+	- Students should become familiar with the concepts of `localStorage` and `cookies`.
+	- Students should complete the Sign-in Page with localStorage activity.
+	- Students should complete the To-Do App with localStorage activity.
+- 7.2
+	- To introduce the utility of server-side storage systems like Firebase
+	- To provide a grasp of the basic methods for storing and retrieving data in Firebase
+- 7.3
+	- Students should understand the following Firebase methods .push({}) and .on("child_added")
+	- Students should understand the utility of the MomentJS library for date-time manipulation
+	- Students should complete and understand the TimeSheet Application
+	- Students should complete and understand the Train Prediction Activity
+	- Students should build their confidence at building applications from scratch
+	- Students should understand the concept of creating lists and children using Firebase
+- 10.1
+	-	Students should be able to articulate definitions of web servers, web clients, requests, and responses.
+	- Students should be able to articulate a preliminary definition of Node and its role in back-end web development.
+	- Students should be able to utilize process.argv to capture command line arguments using Node.
+- 10.2
+	- Students should know how to use the Node internal fs package to read, write, and append files.
+	- Students should know how to use the external NPM package request to perform GET requests on webpages.
+- 10.3
+	- Students should understand the utility of NPM packages and the process for including them in Node applications.
+	- Students should understand how to use the inquirer.JS NPM package for handling user inputs on the command line
+- 11.1
+	- Students should understand how to create a basic JavaScript constructor
+	- Students should be able to use constructors and user input to dynamically create objects
+- 11.2
+	- To feel 100% comfortable using javascript constructors
+	- To create simple applications that take in user input and utilize a constructor so as to create objects
+	- To understand the basics of recursion and to learn how this process can be used to loop through a series of prompts multiple times
+- 11.3
+	- Sketch the design of their applications before they start to code;
+	- Use constructors to create objects
+- 12.1
+	- To have MySQL Workbench installed and running on your computer
+	- To create a localhost connection to a MySQL server and have everyone successfully connect to it
+	- To successfully create, use, and populate a MySQL database with data
+	- To successfully create, populate, and select data from a MySQL table
+- 12.2 
+	- Students should be able to select data from a MySQL database using Node and use that data in simple JavaScript applications
+	- Students should be able to add, change, and remove data from MySQL databases using Node and simple JavaScript applications
+- 12.3
+	- Students should feel confident in their abilities to create, read, update, and delete MySQL server data
+	- Students should know how to create and use "schema.sql" and "seeds.sql" files
+	- Students should have a firm understanding of how to import and export data using .CSV files
+	- Students should learn how to create MySQL schemas and import large amounts of external data into a database
+- 13.1
+	- Students should gain a conceptual understanding of server-side code and the code that operates on servers.
+	- Students should understand the analogy of "servers as boxes within a box".
+	- Students should understand the basic server functionality of listening, URL parsing, routing, and GET/POST handling.
+	- Students should understand how to launch and test a server using localhost and Node.js code.
+- 13.2
+	- Students should understand the basic elements of an Express Server.
+	- Students should understand the concept of routing along with app.get() and app.post() syntax.
+	- Students should know how to target server endpoints using the browser and Postman.
+	- Students should be guided through the "Star Wars Express" application.
+- 13.3
+	- Students should be able to create a real-world application for handling reservations using Node/Express
+- 14.1
+	- Students should have a moderate understanding of the basic Handlebars syntax.
+	- Students should be able to pass server-side data to the page using Express and Handlebars.
+- 14.2
+	- Students should have a firm understanding of how to use GET, POST, PUT, and DELETE commands (jQuery and/or HTML5) for sending data from the front-end to the back-end.
+	- Students should be able to apply the basics of CRUD (Create. Read. Update. Delete.) to create a full-stack web application.
+	- Students should know how to use Express, MySQL, and Handlebars all together to create dynamic webpages.
+- 14.3
+	- Students will be able to create a basic ORM that will allow them to create, read, update, and delete data from MySQL databases.
+	- Students will have a firm grasp on how to use JavaScript callbacks, especially when they are used in conjunction with an ORM.
+	- Students will be introduced to the MVC framework for setting up their file-system path.
+- 15.1
+	- Students should understand the concept of Sequelize models, and how we can sync them with a MySQL database to create tables with schemas written out in JavaScript.
+	- Students should be able to initialize a Sequelize project using the command line interface.
+- 15.2
+	- Students should know how to perform each CRUD action using Sequelize.
+	- Students should become familiar with the "where" query attribute to filter items from our database.
+	- Students should become more comfortable converting a project using a different ORM to use Sequelize, as well as understand what's needed to set Sequelize up from scratch.
+	- Students should also understand how through the use of validations on their models, they can restrict what type of data can be saved into their databases.
+- 15.3
+	- Students should feel more comfortable with model creation in Sequelize.
+	- Students should begin to get comfortable looking for answers to specific problems in the Sequelize documentation.
+	- Students should feel more comfortable performing each CRUD action using Sequelize.
+	-	Students should become familiar with relations in Sequelize.
+	- Students should become familiar with the "include" option in order to easily perform queries with joins.
+- 18.1
+	- Students should be able to install MongoDB on their machines within the first hour of class. If anyone has trouble getting it running, you or a TA should offer that student assistance.
+	- Students should understand how to make queries with MongoDB. Meeting this goal will build the necessary foundation for the next lecture, which will incorporate such queries with Node.js files.
+	- Students should install RoboMongo by the end of class. This UI will make everyone's life easier.
+- 18.2
+	- Students should know how to use cheerio to select parts of a website and scrape those parts into a server.
+	- Students should understand how to install MongoJS to perform MongoDB queries through Node.
+	- Students should grasp how to pull data from MongoDB and display it on the front end.
+- 18.3
+	- Students should understand how to write up a Mongoose schema to dictate rules for their MongoDB data.
+  - Students should know how to create custom methods in Mongoose to set and update data purely on the back end.
+  - Students should be able to utilize Mongoose's populate method to create relationships between the collections in their database.
+    - They should also understand that populate doesn't offer the support for more advanced types of relationships, so MySQL may still be more suitable for more complex projects.
