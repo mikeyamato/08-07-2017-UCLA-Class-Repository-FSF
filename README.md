@@ -109,3 +109,10 @@ Class Exercise and Homework Solutions
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkLBEm5V0IzuhjdWBeKvrOC)
 
 ----------
+[Homework Solution Video #1](https://youtu.be/jF0kIhpX6tk)
+
+- - -
+
+### [Unit 3 - Intro to JavaScript](01-Class-Content/03-javascript/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmEChEWfh7sxPvQwYAx3Kt0)
