@@ -103,7 +103,7 @@ Class Exercise and Homework Solutions
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClK-ZG5jYqbdgOD2DRHROkT)
 
-[Homework Solution Video](https://youtu.be/qMbCiVYQLCU)
+[Homework Solution Video # 1](https://youtu.be/qMbCiVYQLCU)
 
 - - -
 
@@ -112,7 +112,7 @@ Class Exercise and Homework Solutions
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkLBEm5V0IzuhjdWBeKvrOC)
 
 ----------
-[Homework Solution Video #1](https://youtu.be/jF0kIhpX6tk)
+[Homework Solution Video #2](https://youtu.be/jF0kIhpX6tk)
 
 - - -
 
