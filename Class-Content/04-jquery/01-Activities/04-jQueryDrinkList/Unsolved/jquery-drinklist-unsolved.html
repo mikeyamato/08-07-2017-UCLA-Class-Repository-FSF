@@ -11,6 +11,11 @@
 
   <div id="drink-options"></div>
 
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
   <script type="text/javascript">
 
     var drinkList = [
@@ -27,6 +32,23 @@
 
     // Using JavaScript programmatically append each drinkList item to the "drink-options" div
     // HINT: you will need a for loop to go over each element in the list
+
+
+        $("#drink-options").html("drink options");
+        var newUL = $("<ul>");
+        for (var i = 0; i < drinkList.length; i++)
+          var newLi - $("<li>");
+        newLi.html(drinkList[i]);
+        newUL.append(newLi);
+      }
+
+
+      // $.each(drinkList, function(i, element) {
+      //   newUL.append($("<li>").append(element));
+      // })
+
+
+       $("drink-options").append(newUL);
 
 
   </script>
