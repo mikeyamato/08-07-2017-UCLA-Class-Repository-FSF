@@ -84,6 +84,9 @@ Please see bootcampspot-v2.com
 
 Live Office Hours: 45 minutes before class on M-Th and 30 minutes after class
 
+Weekly Updates: Weekly Updates will all be done with Omar either in class during office hours or online. Times are set up online via calendly. Please remind the instructor 10 minutes ahead of time before the appointment and have Zoom installed. Weekly updates last a max of 15 minutes and are mandatory for each week. 
+
+Regular Office Hours: Regular office hours are held for students by TAs during office hour times. Feel free to ask any questions or concerns. Please be sure you have researched the question ahead of time before asking the question (similar to how you would work in a working environemnt). There is one TA that is available by appointment and one TA that is free. 
 
 -----------------------------------------
 
@@ -100,7 +103,7 @@ Class Exercise and Homework Solutions
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClK-ZG5jYqbdgOD2DRHROkT)
 
-[Homework Solution Video](https://youtu.be/qMbCiVYQLCU)
+[Homework Solution Video # 1](https://youtu.be/qMbCiVYQLCU)
 
 - - -
 
@@ -109,7 +112,7 @@ Class Exercise and Homework Solutions
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkLBEm5V0IzuhjdWBeKvrOC)
 
 ----------
-[Homework Solution Video #1](https://youtu.be/jF0kIhpX6tk)
+[Homework Solution Video #2](https://youtu.be/jF0kIhpX6tk)
 
 - - -
 
