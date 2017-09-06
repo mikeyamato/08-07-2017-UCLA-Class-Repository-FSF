@@ -116,6 +116,14 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 3 - Intro to JavaScript](01-Class-Content/03-javascript/02-Homework)
+### Unit 3 - Intro to JavaScript
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmEChEWfh7sxPvQwYAx3Kt0)
+
+[Homework Solution Video](https://youtu.be/cgdmOR15cn4)
+
+- - -
+
+### Unit 4 - Intro to jQuery
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCn05TQ1Ui8_lTnhizYcEFX7)
