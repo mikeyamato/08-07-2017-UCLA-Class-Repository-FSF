@@ -17,7 +17,7 @@
       alert("One: " + a);
     }
 
-    // What will get alerted?
+    // What will get alerted? ("One: 1")
     one();
 
     // Example Two: Local Scope
@@ -31,7 +31,7 @@
       two(a);
     }
 
-    // What will get alerted?
+    // What will get alerted? ("Two: 1")
     twotop();
 
     // Example Three: Local Scope
@@ -43,7 +43,7 @@
       alert("Three: " + a);
     }
 
-    // What will get alerted?
+    // What will get alerted? ("Three: 3");
     three();
 
     // Example Four: Local Scope
@@ -63,10 +63,12 @@
 
       second();
 
+      // What will get alerted? ("Five: 5"),
+      // because we are outside of second() and back in the scope of first()
       alert("Five: " + a);
     }
 
-    // What will get alerted?
+    // What will get alerted? ("Four: 3");
     first();
 
   </script>
