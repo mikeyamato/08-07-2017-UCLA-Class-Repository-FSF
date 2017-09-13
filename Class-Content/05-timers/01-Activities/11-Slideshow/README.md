@@ -8,7 +8,7 @@
 
 * Create a slideshow using jQuery and JavaScript Timing Events.
 
-* Select a few images and make a slideshow.
+* Feel free to find your own images or use the ones provided in the images directory.
 
 * Display the "loading.gif" image in between each picture for one second.
 
