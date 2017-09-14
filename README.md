@@ -127,3 +127,9 @@ Class Exercise and Homework Solutions
 ### Unit 4 - Intro to jQuery
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCn05TQ1Ui8_lTnhizYcEFX7)
+
+- - -
+
+### Unit 5 - JS Timers, Review, and Trivia
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncwPdhG7Z7A2HOAKcnmIQr)
