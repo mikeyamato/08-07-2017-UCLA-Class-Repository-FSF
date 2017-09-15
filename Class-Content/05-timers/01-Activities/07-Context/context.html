@@ -19,7 +19,7 @@
     <script type="text/javascript">
 
       // We define a person, and include a method that logs his name along with a greeting.
-      var person = {
+      var person = {  // 'this' always calls the object
         name: "Jeff",
         sayHi: function() {
           console.log("Hi, I'm " + this.name);
@@ -32,7 +32,16 @@
 
       // Hi, I'm Jeff
       // But if we include it in a timeout
-      setTimeout(person.sayHi, 50);
+      
+
+      //setTimeout(person.sayHi, 50); // 
+
+      setTimeout(function() {  // i don't know how this works. this is similar to bind. 
+        person.sayHi();
+      }, 50);
+
+
+      
 
       // We get the following:
       // Hi, I'm

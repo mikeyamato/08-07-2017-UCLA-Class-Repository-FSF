@@ -42,6 +42,7 @@
 
       $("#show-number").html("<h2>" + number + "</h2>");
 
+      // once number hits zero
       if (number === 0) {
 
         stop();
@@ -49,9 +50,10 @@
         alert("Time Up!");
       }
     }
-
+    // the stop function
     function stop() {
-
+      // clears our intervalId
+      // we just pass   
       clearInterval(intervalId);
     }
 
