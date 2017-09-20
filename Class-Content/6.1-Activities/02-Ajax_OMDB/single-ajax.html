@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Single AJAX</title>
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    // constructing a queryURL variable we will use instead of the literal string inside of the ajax method
+    var title = "inception";
+    var queryURL = "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=40e9cece";
+
+    $.ajax({   // this is a ajax request
+      url: queryURL,  // it's like me putting the url in the address bar
+      method: "GET"   // it's like hitting enter
+    }).done(function(response) {   // we are chaining a method here. we are running this portion after the section prior gets finished. the .done(function) part is called a promise. 
+      console.log(response);
+      console.log(response.Runtime);  // this is the part that pulls the embedded object
+      console.log(response.Language);
+    });
+// ---------------------------------------------------------
+
+    console.log("This console.log will probably happen first because of asynchronicity.");
+    var x = 2;
+    var y = 10;
+    var z = 13;
+    console.log("We can also assign some variables and do some arithmetic while we wait too: 2 + 10 + 13 = ", x + y + z);
+
+
+
+
+const craigslist = require('node-craigslist');
+ 
+let client = new craigslist.Client({
+  baseHost : 'craigslist.ca',
+  city : 'Toronto'
+  console.log(craigslist)
+});
+
+  </script>
+
+</body>
+
+</html>

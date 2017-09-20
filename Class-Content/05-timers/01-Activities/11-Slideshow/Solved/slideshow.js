@@ -38,13 +38,14 @@ function nextImage() {
   if (count === images.length) {
     count = 0;
   }
+   
 }
 
 function startSlideshow() {
 
   // TODO: Use showImage to hold the setInterval to run nextImage.
   showImage = setInterval(nextImage, 3000);
-
+  
 }
 
 function stopSlideshow() {
