@@ -69,8 +69,57 @@
     // Step 2: copy the above and try and figure out what to change to fill in the
     // second row.
 
+    var type = "frozen";
+    var queryURL = "https://www.omdbapi.com/?t=" + type + "&y=&plot=short&apikey=40e9cece";
+
+    $.ajax({
+      url: queryURL,
+      method: "GET"
+    }).done(function(response) {
+
+
+     var secondRowTds = $("table")
+        .children()
+        .eq(1)
+        .children("tr")
+        .eq(1)
+        .children("td");
+
+      // Setting the inner text of each td in the first row
+      secondRowTds.eq(0).text(response.Title);
+
+      secondRowTds.eq(1).text(response.Year);
+
+      secondRowTds.eq(2).text(response.Actors);
+    });
+
 
     // Step 3: using the same logic, fill in the third row
+
+    var type = "commando";
+    var queryURL = "https://www.omdbapi.com/?t=" + type + "&y=&plot=short&apikey=40e9cece";
+
+    $.ajax({
+      url: queryURL,
+      method: "GET"
+    }).done(function(response) {
+
+
+    var secondRowTds = $("table")
+        .children()
+        .eq(1)
+        .children("tr")
+        .eq(2)
+        .children("td");
+
+      // Setting the inner text of each td in the first row
+      secondRowTds.eq(0).text(response.Title);
+
+      secondRowTds.eq(1).text(response.Year);
+
+      secondRowTds.eq(2).text(response.Actors);
+    });
+
   </script>
 </body>
 

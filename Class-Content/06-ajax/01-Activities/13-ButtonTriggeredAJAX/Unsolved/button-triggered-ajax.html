@@ -27,6 +27,8 @@
 
     <!-- YOUR BUTTONS GO HERE!!!!!! Obviously delete this text after you put them between the dashed lines here.  -->
 
+    <button data-person="hamburgler">I love burgers!</button>
+
     <!-- **************************************** -->
 
 
@@ -42,7 +44,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
     $("button").on("click", function() {
-      var person = $(this).attr("data-person");
+      var person = $(this).attr("data-person");  // stores the value of the button with THIS
       var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
         person + "&api_key=dc6zaTOxFJmzC&limit=10";
 
@@ -52,7 +54,7 @@
         })
         .done(function(response) {
           var results = response.data;
-
+          console.log(response);
           for (var i = 0; i < results.length; i++) {
             var gifDiv = $("<div class='item'>");
 

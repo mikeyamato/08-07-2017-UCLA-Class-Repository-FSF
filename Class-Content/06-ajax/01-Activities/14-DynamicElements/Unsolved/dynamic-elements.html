@@ -33,24 +33,35 @@
 
         // =============== put step 2 in between these dashes ==================
 
+        var results = response.data
         // ========================
 
-        // for (var i = 0; i < results.length; i++) {
+        for (var i = 0; i < results.length; i++) {
 
         // Step 3: uncomment the for loop above and the closing curly bracket below.
         // Make a div with jQuery and store it in a variable named animalDiv.
+        var animalDiv = $("<div>");
         // Make a paragraph tag with jQuery and store it in a variable named p.
+        var p = $("<p>");
         // Set the inner text of the paragraph to the rating of the image in results[i].
+        p = results[i].rating;
         // Make an image tag with jQuery and store it in a variable named animalImage.
+        var animalImage = $("<img>");
         // Set the image's src to results[i]'s fixed_height.url.
-        // Append the p variable to the animalDiv variable.
-        // Append the animalImage variable to the animalDiv variable.
-        // Prepend the animalDiv variable to the element with an id of gifs-appear-here.
 
-        // ============= put step 3 in between these dashes ======================
+
+         animalImage.attr("src", results[i].images.fixed_height.url)
+
+        // Append the p variable to the animalDiv variable.
+        animalDiv.append(p);
+        // Append the animalImage variable to the animalDiv variable.
+        animalDiv.append(animalImage);
+        // Prepend the animalDiv variable to the element with an id of gifs-appear-here.
+        
+        $("#gifs-appear-here").prepend(animalDiv);        // ============= put step 3 in between these dashes ======================
 
         // ==================================
-        // }
+        }
 
       });
     });

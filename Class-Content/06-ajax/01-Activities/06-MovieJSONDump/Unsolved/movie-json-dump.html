@@ -38,6 +38,8 @@
         // Here we construct our URL
         var queryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=40e9cece";
 
+
+
         // Write code between the dashes below to hit the queryURL with $ajax, then take the response data
         // and display it in the div with an id of movie-view
 
@@ -45,7 +47,11 @@
 
         // =================================================================
 
-        // CODE GOES HERE
+        $.ajax({
+          url: queryURL,
+          method: "GET"
+        }).done(function(response){
+            $("#movie-view").text(JSON.stringify(response));
 
         // =================================================================
       });

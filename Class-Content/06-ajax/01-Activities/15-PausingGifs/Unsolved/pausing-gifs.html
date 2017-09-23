@@ -25,10 +25,26 @@
         // ============== FILL IN CODE HERE FOR STEP TWO =========================
 
         // CODE GOES HERE
+        var state = $(this).attr("data-state");
+      
+        console.log(state);
 
         // =============================================
 
         // STEP THREE: Check if the variable state is equal to 'still',
+
+
+        if(state === "still") {
+          $(this).attr("src", $(this).attr("data-animate"));
+          $(this).attr("data-state", "animate");
+        } else if (state === "animate") {
+          $(this).attr("src", $(this).attr("data-still"));
+          $(this).attr("data-state", "still");
+        }
+
+        // i don't know what's wrong with my code. it looks just like omar's
+
+
         // then update the src attribute of this image to it's data-animate value,
         // and update the data-state attribute to 'animate'.
 
