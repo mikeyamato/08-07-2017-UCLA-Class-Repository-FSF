@@ -12,37 +12,32 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
-    // click the button to execute
+    // Event listener for our cat-button
     $("#cat-button").on("click", function() {
 
-<<<<<<< HEAD
-      // this is the URL where the giphy API exists
-      var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cars";
-=======
-      //
+      // Storing our giphy API URL for a random cat image
       var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cats";
->>>>>>> b6da7b520f3b0309a2ca3f3ee8e55466664f5fac
 
-      // this creates the call back
+      // Perfoming an AJAX GET request to our queryURL
       $.ajax({
         url: queryURL,
         method: "GET"
       })
 
-      // after the data comes back
+      // After the data from the AJAX request comes back
       .done(function(response) {
 
-        // saves the image URL
+        // Saving the image_original_url property
         var imageUrl = response.data.image_original_url;
 
-        // creating and storing an image tag 
+        // Creating and storing an image tag
         var catImage = $("<img>");
 
-        // setting the catImage src attribute to imageUrl
+        // Setting the catImage src attribute to imageUrl
         catImage.attr("src", imageUrl);
         catImage.attr("alt", "cat image");
 
-        // prepend the catImage to the images div
+        // Prepending the catImage to the images div
         $("#images").prepend(catImage);
       });
     });

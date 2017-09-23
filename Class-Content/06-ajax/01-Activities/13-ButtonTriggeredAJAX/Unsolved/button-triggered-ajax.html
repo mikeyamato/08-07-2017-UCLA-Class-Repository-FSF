@@ -44,8 +44,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
     $("button").on("click", function() {
+<<<<<<< HEAD
       var person = $(this).attr("data-person");  // stores the value of the button with THIS
       var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+=======
+      var person = $(this).attr("data-person");
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+>>>>>>> b6da7b520f3b0309a2ca3f3ee8e55466664f5fac
         person + "&api_key=dc6zaTOxFJmzC&limit=10";
 
       $.ajax({
