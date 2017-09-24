@@ -36,7 +36,39 @@
   <!-- Script -->
   <script>
     //  ============================= START CODING BELOW! =============================================
-var toDoCount = 1;
+// var toDoCount = 1;
+
+var list = JSON.parse(localStorage.getItem("todolist"));
+
+  if(!Array.isArray(list)){
+    list = [];
+  }
+
+  function putOnPage() {
+    $("todo-list").empty();
+    var insideList = JSON.parse(localStorage.getItem("todolist"));
+    if(!Array.isArray(insideList)){
+      insideList = [];
+    }
+    for(var i = 0; i < insideList.length; )
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // Create an initial toDoCount variable
     //  On Click event associated with the add-to-do function
     $("#add-to-do").on("click", function(event) {
