@@ -49,9 +49,12 @@
           url: queryURL,
           method: "GET"
         }).done(function(response) {
-
+          console.log(response);
           // Creating a div to hold the movie
           var movieDiv = $("<div class='movie'>");
+
+          // var source = response.Ratings[0].Source;
+          // console.log(source);
 
           // Storing the rating data
           var rating = response.Rated;
@@ -109,13 +112,17 @@
           // This code $("<button>") is all jQuery needs to create the beginning and end tag. (<button></button>)
           var a = $("<button>");
           // Adding a class of movie to our button
-          a.addClass("movie");
+          a.addClass("movie");   // <button class="movie"></button>
           // Adding a data-attribute
-          a.attr("data-name", movies[i]);
+          a.attr("data-name", movies[i]); // <button class="movie" data-name="Harry Potter"></button>
           // Providing the initial button text
-          a.text(movies[i]);
+          a.text(movies[i]);   // <button class="movie" data-name="Harry Potter">Harry Potter</button>
           // Adding the button to the buttons-view div
           $("#buttons-view").append(a);
+
+          // <button class="movie" data-name="Harry Potter">Harry Potter</button>
+          // <button class="movie" data-name="The Matrix">The Matrix</button>
+
         }
       }
 
