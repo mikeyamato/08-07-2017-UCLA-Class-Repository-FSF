@@ -19,25 +19,25 @@
   <!-- Button -->
   <button id="click-button">Click Me!!!!</button>
 
+
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- ================================================================================== -->
 
   <!-- Firebase JavaScript Link -->
-  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
-
+  <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
   <script>
-    // Initialize Firebase
-    // This is the code we copied and pasted from our app page
-    var config = {
-      apiKey: "AIzaSyAJS4YQWU5DmESeYueG1qH1NGkjv3DncEY",
-      authDomain: "fir-click-counter-7cdb9.firebaseapp.com",
-      databaseURL: "https://fir-click-counter-7cdb9.firebaseio.com",
-      storageBucket: "fir-click-counter-7cdb9.appspot.com"
-    };
-
-    firebase.initializeApp(config);
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDqx3nnhbqeS9zVDxoAB0ykE7GjWvwEOyY",
+    authDomain: "reallyfml-26e6a.firebaseapp.com",
+    databaseURL: "https://reallyfml-26e6a.firebaseio.com",
+    projectId: "reallyfml-26e6a",
+    storageBucket: "reallyfml-26e6a.appspot.com",
+    messagingSenderId: "805719232365"
+  };
+  firebase.initializeApp(config);
 
     // Variables
     // ================================================================================
@@ -46,7 +46,8 @@
     var database = firebase.database();
 
     // Initializing our click count at 0
-    var clickCounter = 0;
+    var clickCounter = 1000000;
+    var fuck = 0;
 
     // Functions
     // ================================================================================
@@ -56,14 +57,18 @@
 
       // Add 1 to clickCounter
       clickCounter++;
+      fuck--;
 
       // **** Store Click Data to Firebase in a JSON property called clickCount *****
       // **** Note how we are using the Firebase .set() method ****
       // **** .ref() refers to the path you want to save your data to
       // **** Since we left .ref() blank, it will save to the root directory
-      database.ref().set({
-        clickCount: clickCounter
+      database.ref().set({    // .ref() gets me the URL of the URL
+        clickCount: clickCounter,
+        fuckYou: fuck
       });
+
+      
 
       // Now! go to https://fir-click-counter-7cdb9.firebaseio.com/ to see the impact to the DB
     });

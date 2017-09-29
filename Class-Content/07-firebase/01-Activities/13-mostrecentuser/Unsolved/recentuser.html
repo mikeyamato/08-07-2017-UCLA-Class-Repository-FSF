@@ -84,11 +84,19 @@
   <script>
     //  START CODING BELOW!!
 
-    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAJS4YQWU5DmESeYueG1qH1NGkjv3DncEY",
+      authDomain: "fir-click-counter-7cdb9.firebaseapp.com",
+      databaseURL: "https://fir-click-counter-7cdb9.firebaseio.com",
+      storageBucket: "fir-click-counter-7cdb9.appspot.com"
+    };
 
+    // Initialize Firebase
+    firebase.initializeApp(config);
 
     // Create a variable to reference the database
 
+    var database = firebase.database(); 
 
     // Capture Button Click
     $("#add-user").on("click", function() {
@@ -98,14 +106,31 @@
       // YOUR TASK!!!
 
       // Code in the logic for storing and retrieving the most recent user.
+      var nameInput = $("#name-input").val().trim();
+      console.log(nameInput);
 
+      var emailInput = $("#email-input").val().trim();
+
+      var ageInput = $("#age-input").val().trim(); 
       // Don't forget to handle the "initial load"
+
+      database.ref().set({
+        name: nameInput,
+        email: emailInput,
+        age: ageInput
+      });
 
     });
 
 
     // Create Firebase "watcher" Hint: .on("value")
 
+    database.ref().on("value", function(snapshot){
+      console.log(snapshot.val());
+
+      $("#name-display").html(snapshot.val().nameInput);
+
+    });
 
     // Create Error Handling
   </script>
