@@ -169,10 +169,10 @@
     dataRef.ref().orderByChild("dateAdded").limitToLast(1).on("child_added", function(snapshot) {
 
       // Change the HTML to reflect
-      $("#name-display").html(snapshot.val().name);
-      $("#email-display").html(snapshot.val().email);
-      $("#age-display").html(snapshot.val().age);
-      $("#comment-display").html(snapshot.val().comment);
+      $("#name-display").text(snapshot.val().name);
+      $("#email-display").text(snapshot.val().email);
+      $("#age-display").text(snapshot.val().age);
+      $("#comment-display").text(snapshot.val().comment);
     });
 
     </script>

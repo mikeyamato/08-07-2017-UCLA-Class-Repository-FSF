@@ -143,10 +143,10 @@
       console.log(sv.comment);
 
       // Change the HTML to reflect
-      $("#name-display").html(sv.name);
-      $("#email-display").html(sv.email);
-      $("#age-display").html(sv.age);
-      $("#comment-display").html(sv.comment);
+      $("#name-display").text(sv.name);
+      $("#email-display").text(sv.email);
+      $("#age-display").text(sv.age);
+      $("#comment-display").text(sv.comment);
 
       // Handle the errors
     }, function(errorObject) {
