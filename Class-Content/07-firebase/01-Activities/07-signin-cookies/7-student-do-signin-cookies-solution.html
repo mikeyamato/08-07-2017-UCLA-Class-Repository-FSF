@@ -114,10 +114,10 @@
       console.log(comment);
 
       // Output all of the new information into the relevant sections
-      $("#name-display").text(name);
-      $("#email-display").text(email);
-      $("#age-display").text(age);
-      $("#comment-display").text(comment);
+      $("#name-display").html(name);
+      $("#email-display").html(email);
+      $("#age-display").html(age);
+      $("#comment-display").html(comment);
 
       // Clear the previous cookie by setting it it equal to nothing and its expiration date to a past time
       document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
@@ -146,10 +146,10 @@
     });
 
     // By default display the content from the cookieString
-    $("#name-display").text(readCookie("name"));
-    $("#email-display").text(readCookie("email"));
-    $("#age-display").text(readCookie("age"));
-    $("#comment-display").text(readCookie("comment"));
+    $("#name-display").html(readCookie("name"));
+    $("#email-display").html(readCookie("email"));
+    $("#age-display").html(readCookie("age"));
+    $("#comment-display").html(readCookie("comment"));
   </script>
 
 </body>

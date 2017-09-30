@@ -7,7 +7,7 @@
   <title>Sign-Up Today!</title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 </head>
 
@@ -21,7 +21,6 @@
     <div class="jumbotron">
       <h1 class="text-center">Sign-Up Today!</h1>
     </div>
-
     <div class="row">
 
       <!-- Sign-Up Panel-->
@@ -78,52 +77,74 @@
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery.js"></script>
 
-  <!-- JavaScript -->
+  <!-- LINK TO FIREBASE GOES HERE -->
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+  <!-- Script -->
   <script>
+    // START CODING BELOW!!
+
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyA5eYKsB8T2q6rMGdKSvac6eQsWTzsZEjE",
+      authDomain: "fir-recent-user.firebaseapp.com",
+      databaseURL: "https://fir-recent-user.firebaseio.com",
+      storageBucket: "fir-recent-user.appspot.com"
+    };
+
+    firebase.initializeApp(config);
+
+    // Create a variable to reference the database
+    var database = firebase.database();
+
+    // Initial Values
+    var name = "";
+    var email = "";
+    var age = 0;
+    var comment = "";
+
     // Capture Button Click
-    $("#add-user").on("click", function(event) {
-      // prevent page from refreshing when form tries to submit itself
+    $("#add-user").on("click", function() {
+      // Don't refresh the page!
       event.preventDefault();
 
-      // Capture user inputs and store them into variables
-      var name = $("#name-input").val().trim();
-      var email = $("#email-input").val().trim();
-      var age = $("#age-input").val().trim();
-      var comment = $("#comment-input").val().trim();
+      // YOUR TASK!!!
+      // Code in the logic for storing and retrieving the most recent user.
+      // Don't forget to provide initial data to your Firebase database.
+      name = $("#name-input").val().trim();
+      email = $("#email-input").val().trim();
+      age = $("#age-input").val().trim();
+      comment = $("#comment-input").val().trim();
 
-      // Console log each of the user inputs to confirm we are receiving them
-      console.log(name);
-      console.log(email);
-      console.log(age);
-      console.log(comment);
+      database.ref().set({
+        name: name,
+        email: email,
+        age: age,
+        comment: comment
+      });
 
-      // Replaces the content in the "recent-member" div
-      $("#name-display").html();
-      $("#email-display").html();
-      $("#age-display").html();
-      $("#comment-display").html();
-
-      // Output all of the new information into the relevant sections
-      $("#name-display").html(name);
-      $("#email-display").html(email);
-      $("#age-display").html(age);
-      $("#comment-display").html(comment);
-
-      // Clear localStorage
-      localStorage.clear();
-
-      // Store all content into localStorage
-      localStorage.setItem("name", name);
-      localStorage.setItem("email", email);
-      localStorage.setItem("age", age);
-      localStorage.setItem("comment", comment);
     });
 
-    // By default display the content from localStorage
-    $("#name-display").html(localStorage.getItem("name"));
-    $("#email-display").html(localStorage.getItem("email"));
-    $("#age-display").html(localStorage.getItem("age"));
-    $("#comment-display").html(localStorage.getItem("comment"));
+    // Firebase watcher + initial loader HINT: .on("value")
+    database.ref().on("value", function(snapshot) {
+
+      // Log everything that's coming out of snapshot
+      console.log(snapshot.val());
+      console.log(snapshot.val().name);
+      console.log(snapshot.val().email);
+      console.log(snapshot.val().age);
+      console.log(snapshot.val().comment);
+
+      // Change the HTML to reflect
+      $("#name-display").html(snapshot.val().name);
+      $("#email-display").html(snapshot.val().email);
+      $("#age-display").html(snapshot.val().age);
+      $("#comment-display").html(snapshot.val().comment);
+
+      // Handle the errors
+    }, function(errorObject) {
+      console.log("Errors handled: " + errorObject.code);
+    });
   </script>
 
 </body>

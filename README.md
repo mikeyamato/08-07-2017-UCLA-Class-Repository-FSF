@@ -133,3 +133,17 @@ Class Exercise and Homework Solutions
 ### Unit 5 - JS Timers, Review, and Trivia
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncwPdhG7Z7A2HOAKcnmIQr)
+
+- - -
+
+### [Unit 6 - Intro to APIs and AJAX](01-Class-Content/06-ajax/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmRwLl7YKfFxmNySuAhNdmC)
+
+[Homework Solution Video](https://www.youtube.com/watch?v=V67yKAonLa4&list=PLgJ8UgkiorClJwRrLq8f9QuzgTflJoeH2&index=8)
+
+- - -
+
+### [Unit 7 - Intro to Local Storage and Firebase](01-Class-Content/07-firebase/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkg74BLGZkgtJsRDQX51YbU)
