@@ -1,8 +1,5 @@
-// Grabs the bands variables
-var bands = require("./bands.js");
-
-// Gets all of myBands bands from the bands file.
-var bandList = bands.myBands;
+// Gets the myBands object from the bands file.
+var bandList = require("./bands.js");
   
 // Grabs the genre information
 if (process.argv[2]) {
