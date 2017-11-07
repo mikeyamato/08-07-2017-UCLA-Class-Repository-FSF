@@ -1,7 +1,7 @@
 -----------------------------------------
 # The Coding Bootcamp at UCLA Extension
 
-#### August 2017 Cohort 
+#### August 2017 Cohort
 
 
 -----------------------------------------
@@ -42,13 +42,13 @@ All videos can be found using this [insert link here]
 
 Please see bootcampspot-v2.com
 
-##### The material covered in this syllabus is subject to change. Our academic team adjusts to the market rapidly. 
+##### The material covered in this syllabus is subject to change. Our academic team adjusts to the market rapidly.
 
 -----------------------------------------
 ## Career Curriculum By Week
 
 | Week  | Career Content | Career Lesson | Delivery Method | Homework |
-| :---: | :--------------| :------------:| :-------------- |:---------| 
+| :---: | :--------------| :------------:| :-------------- |:---------|
 | 1   | Setting Expectations for Career Services  | 1  | In class                           | Sign the Student Expectations Document via DocuSign                                                                          |
 | 2   | Getting Started with Your Job Search      | 2  | Video                              | Research job opportunities                                                                                                   |
 | 4   | Building Your Bio & Perfecting Your Pitch | 3  | Video                              | Write a Bio                                                                                                                  |
@@ -60,8 +60,8 @@ Please see bootcampspot-v2.com
 | 21  | Career Coaching Lesson 1                  |    | Google Hangout                     |                                                                                                                              |
 | 22  | Networking Practice                       | 9  | Individual Student Practice        | Attend a networking event and write about your experience                                                                    |
 | 25  | Career Coaching Lesson 2                  |    | Phone Call / Google Hangout        |                                                                                                                              |
-|     | Final Project Presentation Day            | 10 | In class, final day of the program |                                                                                                                              | 
-| TBD | Graduation Event                          | 11 | In class                           |                                                                                                                              | 
+|     | Final Project Presentation Day            | 10 | In class, final day of the program |                                                                                                                              |
+| TBD | Graduation Event                          | 11 | In class                           |                                                                                                                              |
 
 -----------------------------------------
 
@@ -84,9 +84,9 @@ Please see bootcampspot-v2.com
 
 Live Office Hours: 45 minutes before class on M-Th and 30 minutes after class
 
-Weekly Updates: Weekly Updates will all be done with Omar either in class during office hours or online. Times are set up online via calendly. Please remind the instructor 10 minutes ahead of time before the appointment and have Zoom installed. Weekly updates last a max of 15 minutes and are mandatory for each week. 
+Weekly Updates: Weekly Updates will all be done with Omar either in class during office hours or online. Times are set up online via calendly. Please remind the instructor 10 minutes ahead of time before the appointment and have Zoom installed. Weekly updates last a max of 15 minutes and are mandatory for each week.
 
-Regular Office Hours: Regular office hours are held for students by TAs during office hour times. Feel free to ask any questions or concerns. Please be sure you have researched the question ahead of time before asking the question (similar to how you would work in a working environemnt). There is one TA that is available by appointment and one TA that is free. 
+Regular Office Hours: Regular office hours are held for students by TAs during office hour times. Feel free to ask any questions or concerns. Please be sure you have researched the question ahead of time before asking the question (similar to how you would work in a working environemnt). There is one TA that is available by appointment and one TA that is free.
 
 -----------------------------------------
 
@@ -168,6 +168,8 @@ Class Exercise and Homework Solutions
 ### [Unit 11 - Constructors](01-Class-Content/11-js-constructors/02-Homework)
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClIZdJL_PasNdUR0yWjBCBP)
+
+[Homework Solution Video](https://www.youtube.com/watch?v=PVuK4-xlXng)
 
 - - -
 
