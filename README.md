@@ -183,14 +183,12 @@ Class Exercise and Homework Solutions
 
 ### [Unit 13 - Express](01-Class-Content/13-express/02-Homework)
 
-### Key activities from the week
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmI_wKKVt5FlkTG63sQF6rr)
 
-#### Lesson 13.2 - Star Wars
+[Homework Solution Video](https://www.youtube.com/watch?v=1mS5w2KOdcQ)
 
-Create an app that uses an Express web server. Learn about routing & GET/POST requests!
-[Watch the Video](https://www.youtube.com/watch?v=ygk-kNstqK0)
+- - -
 
-#### Lesson 13.3 - Hot Restaurant
+### [Unit 14 - Handlebars](01-Class-Content/14-handlebars/02-Homework)
 
-Learn to build a full stack application with node, express, and a custom built API.
-[Watch the Video!](https://www.youtube.com/watch?v=G7RvQMW2DOg)
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=cMAIbAJcvZo&list=PLgJ8UgkiorCk9lJ4G-uQkCyGeKlquugNI)
