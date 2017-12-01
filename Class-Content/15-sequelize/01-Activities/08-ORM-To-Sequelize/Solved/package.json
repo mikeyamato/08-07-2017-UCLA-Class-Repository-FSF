@@ -1,16 +1,12 @@
 {
-  "name": "starwars-express",
+  "name": "orm-to-sequelize",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "start": "node server.js"
-=======
     "start": "node server.js",
     "watch": "nodemon server.js"
->>>>>>> 2619f0dd16070856623b9a3735f525a8ea7de369
   },
   "keywords": [],
   "author": "",
