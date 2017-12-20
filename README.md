@@ -1,7 +1,7 @@
 -----------------------------------------
 # The Coding Bootcamp at UCLA Extension
 
-#### August 2017 Cohort 
+#### August 2017 Cohort
 
 
 -----------------------------------------
@@ -42,13 +42,13 @@ All videos can be found using this [insert link here]
 
 Please see bootcampspot-v2.com
 
-##### The material covered in this syllabus is subject to change. Our academic team adjusts to the market rapidly. 
+##### The material covered in this syllabus is subject to change. Our academic team adjusts to the market rapidly.
 
 -----------------------------------------
 ## Career Curriculum By Week
 
 | Week  | Career Content | Career Lesson | Delivery Method | Homework |
-| :---: | :--------------| :------------:| :-------------- |:---------| 
+| :---: | :--------------| :------------:| :-------------- |:---------|
 | 1   | Setting Expectations for Career Services  | 1  | In class                           | Sign the Student Expectations Document via DocuSign                                                                          |
 | 2   | Getting Started with Your Job Search      | 2  | Video                              | Research job opportunities                                                                                                   |
 | 4   | Building Your Bio & Perfecting Your Pitch | 3  | Video                              | Write a Bio                                                                                                                  |
@@ -60,8 +60,8 @@ Please see bootcampspot-v2.com
 | 21  | Career Coaching Lesson 1                  |    | Google Hangout                     |                                                                                                                              |
 | 22  | Networking Practice                       | 9  | Individual Student Practice        | Attend a networking event and write about your experience                                                                    |
 | 25  | Career Coaching Lesson 2                  |    | Phone Call / Google Hangout        |                                                                                                                              |
-|     | Final Project Presentation Day            | 10 | In class, final day of the program |                                                                                                                              | 
-| TBD | Graduation Event                          | 11 | In class                           |                                                                                                                              | 
+|     | Final Project Presentation Day            | 10 | In class, final day of the program |                                                                                                                              |
+| TBD | Graduation Event                          | 11 | In class                           |                                                                                                                              |
 
 -----------------------------------------
 
@@ -84,9 +84,9 @@ Please see bootcampspot-v2.com
 
 Live Office Hours: 45 minutes before class on M-Th and 30 minutes after class
 
-Weekly Updates: Weekly Updates will all be done with Omar either in class during office hours or online. Times are set up online via calendly. Please remind the instructor 10 minutes ahead of time before the appointment and have Zoom installed. Weekly updates last a max of 15 minutes and are mandatory for each week. 
+Weekly Updates: Weekly Updates will all be done with Omar either in class during office hours or online. Times are set up online via calendly. Please remind the instructor 10 minutes ahead of time before the appointment and have Zoom installed. Weekly updates last a max of 15 minutes and are mandatory for each week.
 
-Regular Office Hours: Regular office hours are held for students by TAs during office hour times. Feel free to ask any questions or concerns. Please be sure you have researched the question ahead of time before asking the question (similar to how you would work in a working environemnt). There is one TA that is available by appointment and one TA that is free. 
+Regular Office Hours: Regular office hours are held for students by TAs during office hour times. Feel free to ask any questions or concerns. Please be sure you have researched the question ahead of time before asking the question (similar to how you would work in a working environemnt). There is one TA that is available by appointment and one TA that is free.
 
 -----------------------------------------
 
@@ -133,3 +133,62 @@ Class Exercise and Homework Solutions
 ### Unit 5 - JS Timers, Review, and Trivia
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncwPdhG7Z7A2HOAKcnmIQr)
+
+- - -
+
+### [Unit 6 - Intro to APIs and AJAX](01-Class-Content/06-ajax/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmRwLl7YKfFxmNySuAhNdmC)
+
+[Homework Solution Video](https://www.youtube.com/watch?v=V67yKAonLa4&list=PLgJ8UgkiorClJwRrLq8f9QuzgTflJoeH2&index=8)
+
+- - -
+
+### [Unit 7 - Intro to Local Storage and Firebase](01-Class-Content/07-firebase/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkg74BLGZkgtJsRDQX51YbU)
+[Homework Solution Video](https://www.youtube.com/watch?v=Dz5iKzwHi0k&index=9)
+
+- - -
+
+### Unit 9 - API Project Week 2 + Interview/Debug
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClkfaUS1W52Sr7-TqlOEDYU)
+
+- - -
+
+### [Unit 10 - Intro to Node.JS](01-Class-Content/10-nodejs/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCnevQjLViL_kxpU30eIJFu7)
+
+[Homework Solution Video](https://www.youtube.com/watch?v=1-k08YfQbec&list=PLgJ8UgkiorClJwRrLq8f9QuzgTflJoeH2&index=9)
+
+- - -
+
+### [Unit 11 - Constructors](01-Class-Content/11-js-constructors/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClIZdJL_PasNdUR0yWjBCBP)
+
+[Homework Solution Video](https://www.youtube.com/watch?v=PVuK4-xlXng)
+
+- - -
+
+### [Unit 12 - MySQL](01-Class-Content/12-mysql/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncqIRVifiwiP7VoMpcCq0V)
+
+[Homework Solution Video](https://www.youtube.com/watch?v=oouxVn14qyk)
+
+- - -
+
+### [Unit 13 - Express](01-Class-Content/13-express/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmI_wKKVt5FlkTG63sQF6rr)
+
+[Homework Solution Video](https://www.youtube.com/watch?v=1mS5w2KOdcQ)
+
+- - -
+
+### [Unit 14 - Handlebars](01-Class-Content/14-handlebars/02-Homework)
+
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=cMAIbAJcvZo&list=PLgJ8UgkiorCk9lJ4G-uQkCyGeKlquugNI)

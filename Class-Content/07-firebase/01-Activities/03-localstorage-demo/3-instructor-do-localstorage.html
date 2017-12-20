@@ -44,7 +44,7 @@
       event.preventDefault();
 
       // Clear the HTML from the greeting header
-      $("#greeting").html("");
+      $("#greeting").html();
 
       // Grab the user input
       var username = $("#your-name").val().trim();
@@ -56,12 +56,12 @@
       localStorage.setItem("name", username);
 
       // And display that name for the user using "localStorage.getItem"
-      $("#greeting").text(localStorage.getItem("name"));
+      $("#greeting").html(localStorage.getItem("name"));
 
     });
 
     // By default (upon load) show the name stored in localStorage using "localStorage.getItem"
-    $("#greeting").text(localStorage.getItem("name"));
+    $("#greeting").html(localStorage.getItem("name"));
 
     </script>
 

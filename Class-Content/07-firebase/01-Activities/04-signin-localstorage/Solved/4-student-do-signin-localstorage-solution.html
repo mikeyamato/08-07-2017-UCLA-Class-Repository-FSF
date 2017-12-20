@@ -97,11 +97,17 @@
       console.log(age);
       console.log(comment);
 
-      // Replaces the content in the "recent-member" div with the new info
-      $("#name-display").text(name);
-      $("#email-display").text(email);
-      $("#age-display").text(age);
-      $("#comment-display").text(comment);
+      // Replaces the content in the "recent-member" div
+      $("#name-display").html();
+      $("#email-display").html();
+      $("#age-display").html();
+      $("#comment-display").html();
+
+      // Output all of the new information into the relevant sections
+      $("#name-display").html(name);
+      $("#email-display").html(email);
+      $("#age-display").html(age);
+      $("#comment-display").html(comment);
 
       // Clear localStorage
       localStorage.clear();
@@ -114,10 +120,10 @@
     });
 
     // By default display the content from localStorage
-    $("#name-display").text(localStorage.getItem("name"));
-    $("#email-display").text(localStorage.getItem("email"));
-    $("#age-display").text(localStorage.getItem("age"));
-    $("#comment-display").text(localStorage.getItem("comment"));
+    $("#name-display").html(localStorage.getItem("name"));
+    $("#email-display").html(localStorage.getItem("email"));
+    $("#age-display").html(localStorage.getItem("age"));
+    $("#comment-display").html(localStorage.getItem("comment"));
   </script>
 
 </body>

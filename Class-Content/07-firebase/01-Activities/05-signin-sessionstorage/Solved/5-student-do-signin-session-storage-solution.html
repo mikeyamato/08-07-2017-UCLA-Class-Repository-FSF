@@ -97,11 +97,17 @@
       console.log(age);
       console.log(comment);
 
-      // Replaces the content in the "recent-member" div with the new info
-      $("#name-display").text(name);
-      $("#email-display").text(email);
-      $("#age-display").text(age);
-      $("#comment-display").text(comment);
+      // Replaces the content in the "recent-member" div
+      $("#name-display").html();
+      $("#email-display").html();
+      $("#age-display").html();
+      $("#comment-display").html();
+
+      // Output all of the new information into the relevant sections
+      $("#name-display").html(name);
+      $("#email-display").html(email);
+      $("#age-display").html(age);
+      $("#comment-display").html(comment);
 
       // Clear sessionStorage
       sessionStorage.clear();
@@ -114,10 +120,10 @@
     });
 
     // By default display the content from sessionStorage
-    $("#name-display").text(sessionStorage.getItem("name"));
-    $("#email-display").text(sessionStorage.getItem("email"));
-    $("#age-display").text(sessionStorage.getItem("age"));
-    $("#comment-display").text(sessionStorage.getItem("comment"));
+    $("#name-display").html(sessionStorage.getItem("name"));
+    $("#email-display").html(sessionStorage.getItem("email"));
+    $("#age-display").html(sessionStorage.getItem("age"));
+    $("#comment-display").html(sessionStorage.getItem("comment"));
   </script>
 
 </body>
