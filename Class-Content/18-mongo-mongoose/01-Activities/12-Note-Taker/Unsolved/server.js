@@ -12,11 +12,9 @@ var app = express();
 
 // Set the app up with morgan, body-parser, and a static folder
 app.use(logger("dev"));
-app.use(
-  bodyParser.urlencoded({
-    extended: false
-  })
-);
+app.use(bodyParser.urlencoded({
+  extended: false
+}));
 app.use(express.static("public"));
 
 // Database configuration
@@ -31,6 +29,7 @@ db.on("error", function(error) {
   console.log("Database Error:", error);
 });
 
+
 // Routes
 // ======
 
@@ -39,37 +38,50 @@ app.get("/", function(req, res) {
   res.send(index.html);
 });
 
+
 // TODO: You will make six more routes. Each will use mongojs methods
 // to interact with your mongoDB database, as instructed below.
 // -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
+
 // 1. Save a note to the database's collection
-// POST: /submit
 // ===========================================
 
+
+
+
 // 2. Retrieve all notes from the database's collection
-// GET: /all
 // ====================================================
+
+
+
 
 // 3. Retrieve one note in the database's collection by it's ObjectId
 // TIP: when searching by an id, the id needs to be passed in
 // as (mongojs.ObjectId(IDYOUWANTTOFIND))
-// GET: /find/:id
 // ==================================================================
+
+
+
 
 // 4. Update one note in the database's collection by it's ObjectId
 // (remember, mongojs.ObjectId(IDYOUWANTTOFIND)
-// POST: /update/:id
 // ================================================================
+
+
+
 
 // 5. Delete one note from the database's collection by it's ObjectId
 // (remember, mongojs.ObjectId(IDYOUWANTTOFIND)
-// GET: /delete/:id
 // ==================================================================
 
+
+
+
 // 6. Clear the entire note collection
-// GET: /clearall
 // ===================================
+
+
 
 // Listen on port 3000
 app.listen(3000, function() {
