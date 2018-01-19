@@ -25,7 +25,7 @@ let avatars = [
   }
 ];
 
-// 1. Update this function so it uses object rest to append the new avatar to the array
+// 1. Update this function so it uses array spread to append the new avatar to the array
 const addAvatar = function(avatar) {
   return avatars.concat(avatar)
 };

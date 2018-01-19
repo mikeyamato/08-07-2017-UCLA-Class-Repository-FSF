@@ -2,7 +2,7 @@
   "name": "launch-unsolved",
   "version": "1.0.0",
   "description": "unsolved version of es6 launch example",
-  "main": "launches.js",
+  "main": "index.js",
   "scripts": {
     "start": "babel-node index.js --presets es2015,stage-2"
   },

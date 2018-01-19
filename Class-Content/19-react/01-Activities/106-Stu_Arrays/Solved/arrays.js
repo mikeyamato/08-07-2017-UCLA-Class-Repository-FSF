@@ -26,7 +26,7 @@ const mNames = names.filter(function(name) {
 console.log("m-names: ", mNames);
 
 // get a single value from the data: the average age of all of the princesses
-// map: applies a function against an "accumulator" and each element in the array (from left to right) to reduce it to a single value.
+// reduce: applies a function against an "accumulator" and each element in the array (from left to right) to reduce it to a single value.
 const sum = princesses.reduce(function(sum, princess) {
   return sum + princess.age;
 }, 0);

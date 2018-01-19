@@ -10,7 +10,7 @@ Being a fancy shiny SpaceX developer, you have decided to use the new, out-of-th
 
 Our end goal is to log the following information about each failed launch: the year, the flight number, and the details. For example,
 
-To find those failures, we're going to have to use the [SpaceX API](https://api.spacexdata.com/v1/launches). Once we have that data, we're going to narrow it down to the specific vehicle we're looking for, and then further narrow it down to those launches which were failures.
+To find those failures, we're going to have to use the [SpaceX API](https://api.spacexdata.com/v2/launches). Once we have that data, we're going to narrow it down to the specific vehicle we're looking for, and then further narrow it down to those launches which were failures.
 
 #### Part 1: Convert the data to Launch objects
 

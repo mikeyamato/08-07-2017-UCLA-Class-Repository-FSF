@@ -19,7 +19,7 @@ inquirer.prompt({
   rocketId = answer.vehicle;
 
   // use axios to make a request, which returns a promise
-  return axios.get('https://api.spacexdata.com/v1/launches');
+  return axios.get('https://api.spacexdata.com/v2/launches');
 })
 // arrow function to resolve the promise, handle the response from the API
 .then(response => getFailureData(response.data, rocketId))

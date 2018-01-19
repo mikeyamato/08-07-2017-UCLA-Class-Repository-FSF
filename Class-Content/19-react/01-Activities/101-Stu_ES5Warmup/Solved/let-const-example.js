@@ -1,11 +1,11 @@
 // const is preferred over let whenever the value won't be completely reassigned
 
-log(name); // output: 'undefined'
+// log(name); // output: ReferenceError: name is not defined
 
 const tinyize = function(name) {
   log(name); // output: 'Rick'
 
-  log(myName); // output: 'undefined'
+  // log(myName); // output: ReferenceError: myName is not defined
   const myName = "Tiny " + name + "!";
   log(myName); // output: 'Tiny Rick!'
 

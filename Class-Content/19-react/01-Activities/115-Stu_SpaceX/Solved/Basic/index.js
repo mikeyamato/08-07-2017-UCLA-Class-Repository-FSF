@@ -6,7 +6,7 @@ console.log(`Finding historical data for ${ROCKETID}
 ---`);
 
 // axios get request returns a promise which resolves with SpaceX API results
-axios.get('https://api.spacexdata.com/v1/launches')
+axios.get('https://api.spacexdata.com/v2/launches')
   // arrow function to resolve the promise, handle the response from the API
   .then(response => getFailureData(response.data))
   .catch(err => console.log(err));
