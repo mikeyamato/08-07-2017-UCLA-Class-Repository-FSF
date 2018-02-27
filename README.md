@@ -10,9 +10,7 @@
 
 -----------------------------------------------------------
 
-Class Exercise and Homework Solutions
-
-- - -
+## Class Exercise and Homework Solutions
 
 ### Unit 1 - HTML, CSS, and GIT
 
@@ -26,7 +24,6 @@ Class Exercise and Homework Solutions
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkLBEm5V0IzuhjdWBeKvrOC)
 
-----------
 [Homework Solution Video #2](https://youtu.be/jF0kIhpX6tk)
 
 - - -
@@ -62,6 +59,7 @@ Class Exercise and Homework Solutions
 ### Unit 7 - Intro to Local Storage and Firebase
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkg74BLGZkgtJsRDQX51YbU)
+
 [Homework Solution Video](https://www.youtube.com/watch?v=Dz5iKzwHi0k&index=9)
 
 - - -
@@ -132,5 +130,3 @@ Class Exercise and Homework Solutions
 ### Unit 19 - React
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmEfIp2_y73ohb8G6lqyYQY)
-
-- - -
