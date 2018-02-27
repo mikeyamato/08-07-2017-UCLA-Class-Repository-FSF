@@ -136,7 +136,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 6 - Intro to APIs and AJAX](01-Class-Content/06-ajax/02-Homework)
+### Unit 6 - Intro to APIs and AJAX
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmRwLl7YKfFxmNySuAhNdmC)
 
@@ -144,7 +144,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 7 - Intro to Local Storage and Firebase](01-Class-Content/07-firebase/02-Homework)
+### Unit 7 - Intro to Local Storage and Firebase
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkg74BLGZkgtJsRDQX51YbU)
 [Homework Solution Video](https://www.youtube.com/watch?v=Dz5iKzwHi0k&index=9)
@@ -157,7 +157,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 10 - Intro to Node.JS](01-Class-Content/10-nodejs/02-Homework)
+### Unit 10 - Intro to Node.JS
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCnevQjLViL_kxpU30eIJFu7)
 
@@ -165,7 +165,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 11 - Constructors](01-Class-Content/11-js-constructors/02-Homework)
+### Unit 11 - Constructors
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClIZdJL_PasNdUR0yWjBCBP)
 
@@ -173,7 +173,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 12 - MySQL](01-Class-Content/12-mysql/02-Homework)
+### Unit 12 - MySQL
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncqIRVifiwiP7VoMpcCq0V)
 
@@ -181,7 +181,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 13 - Express](01-Class-Content/13-express/02-Homework)
+### Unit 13 - Express
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmI_wKKVt5FlkTG63sQF6rr)
 
@@ -189,7 +189,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 14 - Handlebars](01-Class-Content/14-handlebars/02-Homework)
+### Unit 14 - Handlebars
 
 [Complete Playlist (Exercises)](https://www.youtube.com/watch?v=cMAIbAJcvZo&list=PLgJ8UgkiorCk9lJ4G-uQkCyGeKlquugNI)
 
@@ -198,7 +198,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 15 - Sequelize](01-Class-Content/15-sequelize/02-Homework)
+### Unit 15 - Sequelize
 
 [Complete Playlist (Exercises)](https://www.youtube.com/watch?v=dt9mXaEEAkM&list=PLgJ8UgkiorClj-MYE-wm4J6vfVA3-VqWc)
 
@@ -206,7 +206,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 18 - MongoDB](01-Class-Content/18-mongo-mongoose/02-Homework)
+### Unit 18 - MongoDB
 
 [Complete Playlist (Exercises)](https://www.youtube.com/watch?v=Ci1bui7w75k&list=PLgJ8UgkiorCk7zT1kKGwSogEcJbVBzzH8)
 
@@ -214,7 +214,7 @@ Class Exercise and Homework Solutions
 
 - - -
 
-### [Unit 19 - React](01-Class-Content/19-react/01-Activities)
+### Unit 19 - React
 
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmEfIp2_y73ohb8G6lqyYQY)
 
