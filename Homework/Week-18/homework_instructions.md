@@ -107,12 +107,6 @@ Please see [Heroku’s Account Verification Information](https://devcenter.herok
 
 - - -
 
-### One Last Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-That goes threefold for this week: MongoDB and Mongoose compose a challenging data management system. If there's anything you find confusing about these technologies, don't hesitate to speak with someone from the Bootcamp team.
-
 **Good Luck!**
 
 ## Copyright

@@ -501,7 +501,7 @@
   
   * Who is it good for?
     
-    * Those looking for a supplemental resource for learning JavaScript through a Bootcamp curriculum. It can be a great resource for learning the basics and practicing JavaScript via algorithms. 
+    * Those looking for a supplemental resource for learning JavaScript through a curriculum. It can be a great resource for learning the basics and practicing JavaScript via algorithms. 
 
 * [Team Treehouse](#teamtreehouse)
 
@@ -603,7 +603,7 @@
 
 * [JavaScript Subtopics](http://bitwiseguy.net/category/javascript/)  
   
-  * Blog by UCLAX Bootcamp graduate, Jeff Magil. Goes over various JavaScript concepts, breaking them down and providing code examples. Topics include callbacks, constants in ES6, returning values with functions, writing functions in different ways, using `let` in ES6, and compiling JS.
+  * Blog by UCLA graduate, Jeff Magil. Goes over various JavaScript concepts, breaking them down and providing code examples. Topics include callbacks, constants in ES6, returning values with functions, writing functions in different ways, using `let` in ES6, and compiling JS.
   
   * Pros
     

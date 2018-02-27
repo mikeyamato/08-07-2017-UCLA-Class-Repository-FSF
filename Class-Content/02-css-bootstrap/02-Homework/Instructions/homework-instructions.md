@@ -69,12 +69,6 @@ In this assignment, you'll create two different portfolios. The first will be an
 
 4. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
-### Submitting Your Work on [BootcampSpot.com](http://bootcampspot.com/)
-
-1. Submit the GitHub links to your portfolio repositories on GitHub.
-
-2. Submit the link to your (GitHub Pages) deployed site in the same input field.
-
 ### BONUS
 
 * Incorporate CSS animations in your portfolio. [More info here](http://www.w3schools.com/css/css3_animations.asp).
